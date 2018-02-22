@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Signup Form</title>
-  </head>
-  <body>
-    <header>
-      <h1>Signup Form</h1>
-    </header>
-    <main>
-      <form>
-        <label for="signup">Signup Form</label> <br>
-        <input type="email" name="email" value="" placeholder="Email"><br>
-        <input type="password" name="password" value="" placeholder="Password"><br>
-        <input type="url" name="github" value="" placeholder="https://github.com/<username>"><br>
-          <legend>What version are you signing up for?</legend>
-          <input id="version-enterprise" type="radio" value="Enterprise" name="version">
-          <label for="version-enterprise">Enterprise</label><br>
-          <input id="version-pro" type="radio" value="Pro" name="version">
-          <label for="version-pro">Pro</label><br>
-          <input id="version-free" type="radio" value="Free" name="version" checked>
-          <label for="version-free">Free</label><br>
-          <input id="remember" type="checkbox" name="remember" value="">
-          <label for="remember">Remember Me</label><br>
-          <button type="submit">Sign Up!</button>
+<head>
+  <meta charset="utf-8">
+  <title>Signup Form</title>
+</head>
+<body>
+  <header>
+    <h1>Signup Form</h1>
+  </header>
+  <main>
+    <form>
+      <label for="signup">Signup Form</label> <br>
+      <input type="email" name="email" value="" placeholder="Email"><br>
+      <input type="password" name="password" value="" placeholder="Password"><br>
+      <input type="url" name="github" value="" placeholder="https://github.com/<username>"><br>
+        <!-- Version Selection -->
+        <legend>What version are you signing up for?</legend>
+        <input id="version-enterprise" type="radio" value="Enterprise" name="version">
+        <label for="version-enterprise">Enterprise</label><br>
+        <input id="version-pro" type="radio" value="Pro" name="version">
+        <label for="version-pro">Pro</label><br>
+        <input id="version-free" type="radio" value="Free" name="version" checked>
+        <label for="version-free">Free</label><br>
+        <!-- Remember Me -->
+        <input id="remember" type="checkbox" name="remember" value="">
+        <label for="remember">Remember Me</label><br>
+        <button type="submit">Sign Up!</button>
       </form>
     </main>
   </body>
-</html>
+  </html>
